@@ -1,0 +1,18 @@
+{% extends "pipkin/base_generic.html" %}
+
+{% block content %}
+
+    <h1>Pipkin Database</h1>
+
+    <p>Welcome to <em>Pipkin Database</em>, a very basic website developed as a protoype.</p>
+    
+    <h2>Dashboard</h2>
+    <p>Database Summary</p>
+    <ul>
+    	<li>Persons in DB: {{num_person}}</li>
+    	<li>Latest added Person: {{latestAddedPerson}}</li>
+    	<li>Latest updated Person: {{latestUpdatedPerson}}</li>
+    </ul>
+
+
+{% endblock %}
